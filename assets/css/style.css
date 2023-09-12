@@ -40,13 +40,13 @@ a {
 }
 
 .info {
-  background-color: blanchedalmond;
   display: flex;
   justify-content: center;
   gap: 30px;
   padding: 30px 30px 80px 60px;
   border-bottom: 10px solid rgb(47, 132, 137);
   border-radius: 2px;
+  background-color: lightgrey;
 }
 
 .img-p {
