@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(219, 217, 214);
+  background-color: lightgrey;
 }
 
 .header {
@@ -98,6 +98,8 @@ img {
   border-top: 1px solid #d3d3d3;
   display: flex;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social img {
@@ -158,4 +160,5 @@ img {
   padding-bottom: 40px;
   padding-top: 40px;
   background-color: rgb(98, 97, 97);
+  color: #ffffff;
 }

@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+}
+
+.header1 {
+  background-color: rgb(42, 138, 120);
+  height: 80px;
+  width: 150px;
+  margin-left: 140px;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+
+main {
+  margin-top: 0;
+  padding-top: 150px;
+
+  display: ;
+}
+
+.main-head {
+  border: 1px solid rgb(157, 157, 157);
+  border-radius: 2px;
+  background-color: #ffffff;
+  padding: 40px;
+}
+
+.main {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-right: 80px;
+  height: 700px;
+}
+
+contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px 5px rgba(86, 82, 82, 0.665);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.social {
+  padding-left: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #d3d3d3;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social img {
+  width: 50px;
+  height: 50px;
+}
+.sidebar {
+  width: 220px;
+  height: 130px;
+  background-color: #ffffff;
+  border: 1px solid rgb(157, 157, 157);
+  color: rgb(42, 138, 120);
+  height: 110px;
+  text-align: center;
+  padding-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  margin-top: 170px;
+}
+
+.sidebar h2 {
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding: 6px;
+}
+
+footer {
+  border-top: 8px solid rgb(42, 138, 120);
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  background-color: rgb(98, 97, 97);
+}
+
+/*jkk*/
+#name {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contact-info label {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  padding-top: 10px;
+}
+
+#email {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#textarea {
+  padding: 10px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 143px;
+  margin-top: 10px;
+}
+
+#btn {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4aaaa5;
+  border: 0 none;
+}
