@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 .body {
+  background-image: url("./concrete_seamless.png");
   width: auto;
-  background-color: lightgrey;
 }
 
 .header {
   width: 100%;
-  height: 80px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -21,14 +21,13 @@
 
 .header1 {
   background-color: rgb(42, 138, 120);
-  height: 80px;
-  width: 150px;
+  height: 100px;
+  width: 290px;
   text-align: center;
   padding-top: 30px;
   margin-left: 100px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #ffffff;
-  font-size: 26px;
 }
 
 a {
@@ -51,28 +50,41 @@ a {
   gap: 30px;
   border-bottom: 10px solid rgb(47, 132, 137);
   border-radius: 2px;
-  padding-top: 110px;
+  padding-top: 200px;
   padding-bottom: 40px;
+  height: 800px;
 }
 
 .img-p {
   display: flex;
-  gap: 20px;
+  gap: 26px;
   padding: 20px;
-  border-top: 2px solid rgb(147, 147, 147);
+  width: 90%;
+}
+
+.profile-parg1 {
+  width: 50%;
 }
 
 .profile {
-  width: 220px;
-  height: 250px;
+  width: 50%;
 }
 
 .info-content {
-  height: 453px;
+  height: 400px;
   background-color: #ffffff;
-  width: 500px;
+  width: 32%;
   border: 1px solid lightgrey;
   border-radius: 2px;
+}
+.about {
+  border-bottom: 1px solid lightgrey;
+  width: 90%;
+  margin-left: 16px;
+}
+
+h1 {
+  font-size: 32px;
 }
 .connect {
   background-color: #ffffff;
