@@ -3,9 +3,8 @@
 }
 .body {
   background-image: url("./concrete_seamless.png");
-  width: auto;
 }
-
+/* HEADER FORMAT */
 .header {
   width: 100%;
   height: 100px;
@@ -14,7 +13,6 @@
   align-items: center;
   gap: 150px;
   position: fixed;
-  /*position: relative;*/
   z-index: 1;
   background-color: #ffffff;
 }
@@ -28,14 +26,20 @@
   margin-left: 100px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #ffffff;
+  font-size: 32px;
 }
 
+/* NAVIGATION  */
 a {
   text-decoration: none;
   color: gray;
-  font-size: 20px;
+  font-size: 24px;
 }
 
+.links li {
+  border-right: 2px solid lightgrey;
+  padding-right: 20px;
+}
 .links {
   display: flex;
   gap: 30px;
@@ -44,6 +48,7 @@ a {
   padding-right: 100px;
 }
 
+/* ABOUT CAT */
 .info {
   display: flex;
   justify-content: center;
@@ -59,11 +64,11 @@ a {
   display: flex;
   gap: 26px;
   padding: 20px;
-  width: 90%;
+  height: 220px;
 }
 
 .profile-parg1 {
-  width: 50%;
+  line-height: 30px;
 }
 
 .profile {
@@ -73,7 +78,7 @@ a {
 .info-content {
   height: 400px;
   background-color: #ffffff;
-  width: 32%;
+  width: 40%;
   border: 1px solid lightgrey;
   border-radius: 2px;
 }
@@ -81,11 +86,15 @@ a {
   border-bottom: 1px solid lightgrey;
   width: 90%;
   margin-left: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 32px;
 }
+
+/* ASIDE S, CONNECTION */
 .connect {
   background-color: #ffffff;
   height: 150px;
@@ -118,6 +127,8 @@ h2 {
   width: 50px;
   height: 50px;
 }
+
+/* FOOTER */
 .footer {
   text-align: center;
   height: 80px;
